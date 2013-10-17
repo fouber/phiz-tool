@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+
+require('../phiz.js').cli.run(process.argv);
