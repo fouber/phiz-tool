@@ -1,6 +1,6 @@
 {
   "name": "phiz",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a wrapper of fis to build phiz project",
   "main": "phiz.js",
   "bin": {
@@ -23,7 +23,7 @@
   "author": "fouber",
   "license": "MIT",
   "dependencies": {
-    "fis": "1.4.19",
+    "fis": "1.5.0",
     "fis-postprocessor-phiz-wrapper": "0.0.1"
   },
   "bugs": {
