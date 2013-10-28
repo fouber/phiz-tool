@@ -4,6 +4,11 @@ fis.cli.name = "phiz";
 fis.cli.info = fis.util.readJSON(__dirname + '/package.json');
 
 fis.config.merge({
+    server : {
+        clean : {
+            include : /\/(static|template|map|java)\//
+        }
+    },
     roadmap : {
         //specifications
         path : [
