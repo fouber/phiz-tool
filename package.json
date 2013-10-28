@@ -23,7 +23,7 @@
   "author": "fouber",
   "license": "MIT",
   "dependencies": {
-    "fis": "1.5.0",
+    "fis": "1.5.1",
     "fis-postprocessor-phiz-wrapper": "0.0.3"
   },
   "bugs": {
