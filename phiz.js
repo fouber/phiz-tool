@@ -44,7 +44,8 @@ fis.config.merge({
     modules : {
         postprocessor : {
             php : 'phiz-wrapper'
-        }
+        },
+		postpackager : 'phiz'
     },
     settings : {
         optimizer : {
