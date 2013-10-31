@@ -1,6 +1,6 @@
 {
   "name": "phiz",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "a wrapper of fis to build phiz project",
   "main": "phiz.js",
   "bin": {
