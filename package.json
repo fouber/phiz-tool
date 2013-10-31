@@ -23,9 +23,10 @@
   "author": "fouber",
   "license": "MIT",
   "dependencies": {
-    "fis": "1.5.1",
-    "fis-postpackager-phiz": "0.0.1",
-    "fis-postprocessor-phiz-wrapper": "0.0.3"
+    "fis": "1.5.3",
+    "fis-postpackager-phiz": "0.0.2",
+    "fis-preprocessor-phiz-js": "0.0.3",
+    "fis-postprocessor-phiz-wrapper": "0.0.4"
   },
   "bugs": {
     "url": "https://github.com/fouber/phiz/issues"

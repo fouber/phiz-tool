@@ -42,6 +42,10 @@ fis.config.merge({
         ]
     },
     modules : {
+        preprocessor : {
+            js  : 'phiz-js',
+            php : 'phiz-js'
+        },
         postprocessor : {
             php : 'phiz-wrapper'
         },
@@ -51,11 +55,6 @@ fis.config.merge({
         optimizer : {
             'png-compressor' : {
                 type : 'pngquant'
-            }
-        },
-        postprocessor : {
-            jswrapper : {
-                type : 'amd'
             }
         }
     }
