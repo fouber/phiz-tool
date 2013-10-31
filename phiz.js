@@ -4,6 +4,7 @@ fis.cli.name = "phiz";
 fis.cli.info = fis.util.readJSON(__dirname + '/package.json');
 
 fis.config.merge({
+    //server settings
     server : {
         clean : {
             include : /\/(static|template|map|java)\//
@@ -41,6 +42,7 @@ fis.config.merge({
             }
         ]
     },
+    //plugins
     modules : {
         preprocessor : {
             js  : 'phiz-js',
@@ -51,6 +53,7 @@ fis.config.merge({
         },
 		postpackager : 'phiz'
     },
+    //plugin settings
     settings : {
         optimizer : {
             'png-compressor' : {

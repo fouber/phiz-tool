@@ -25,7 +25,7 @@
   "dependencies": {
     "fis": "1.5.3",
     "fis-postpackager-phiz": "0.0.2",
-    "fis-preprocessor-phiz-js": "0.0.3",
+    "fis-preprocessor-phiz-js": "0.0.4",
     "fis-postprocessor-phiz-wrapper": "0.0.4"
   },
   "bugs": {
